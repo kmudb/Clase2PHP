@@ -22,6 +22,13 @@
 
 		echo "<b>La suma de los dos numeros es:" .$suma. "</b><br>";
 
+
+		if($suma >5){
+			echo "Su suma es mayor a 5";
+			}else{
+				echo "Su suma es menor a 5";
+			}
+
         $var="No hay limites para concatenar ";
         $msj=$var.$numero2;
         echo $msj;
